@@ -1,0 +1,77 @@
+﻿<Window x:Class="ImageTransformationApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageTransformationApplication"
+        xmlns:vm="clr-namespace:ImageProcessingViewModel.ViewModels;assembly=ImageProcessingViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="600" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <vm:ImageProcessing x:Key="viewModel"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource viewModel}">
+        <Image  HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Height="180" 
+                Width="250" 
+                Margin="30,30,0,0" 
+                Source="{Binding ImagePathVM}" />
+
+        <Image HorizontalAlignment="Right" 
+               VerticalAlignment="Top"  
+               Height="180" 
+               Width="250" 
+               Margin="0,30,30,0"
+               Source="{Binding ProcessedImageVM}"/>
+
+        <Button  Content="Load Image"  
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Bottom"
+                 Margin="30,0,0,50"  
+                 Width="140" 
+                 Height="30" 
+                 Command="{Binding OpenFileDialogCommand}"/>
+
+        <Button  Content="Transform to Gray Scale" 
+                 HorizontalAlignment="Center" 
+                 VerticalAlignment="Bottom" 
+                 Margin="0,0,0,50"  
+                 Width="140" 
+                 Height="30" 
+                 Command="{Binding TransformToGrayScaleCommand}"/>
+
+        <Button  Content="Save processed image" 
+                 HorizontalAlignment="Right" 
+                 VerticalAlignment="Bottom" 
+                 Margin="0,0,30,50"  
+                 Width="140" 
+                 Height="30"
+                 Command="{Binding SaveFileDialogCommand}"/>
+
+        <TextBlock x:Name="ProcessedTime"
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Bottom"
+                Margin="0,0,240,25.4" 
+                Width="50"
+                Height="15"
+                Text="{Binding ProcessedTimeVM}"/>
+
+        <Label  x:Name="Label1"
+                Content="Processed Time[ms]: "
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Bottom"
+                Margin="175,0,0,15.4" 
+                Width="122"
+                Height="30"/>
+
+        <Label  x:Name="Label2"
+                Content="ms"
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Bottom"
+                Margin="0,0,189.6,20.4" 
+                Width="50"
+                Height="25"/>
+
+    </Grid>
+</Window>

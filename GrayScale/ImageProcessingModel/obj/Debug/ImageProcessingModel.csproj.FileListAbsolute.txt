@@ -1,0 +1,6 @@
+D:\Programy\GrayScale\GrayScale\ImageProcessingModel\bin\Debug\ImageProcessingModel.dll
+D:\Programy\GrayScale\GrayScale\ImageProcessingModel\bin\Debug\ImageProcessingModel.pdb
+D:\Programy\GrayScale\GrayScale\ImageProcessingModel\obj\Debug\ImageProcessingModel.csprojResolveAssemblyReference.cache
+D:\Programy\GrayScale\GrayScale\ImageProcessingModel\obj\Debug\ImageProcessingModel.csproj.CoreCompileInputs.cache
+D:\Programy\GrayScale\GrayScale\ImageProcessingModel\obj\Debug\ImageProcessingModel.dll
+D:\Programy\GrayScale\GrayScale\ImageProcessingModel\obj\Debug\ImageProcessingModel.pdb

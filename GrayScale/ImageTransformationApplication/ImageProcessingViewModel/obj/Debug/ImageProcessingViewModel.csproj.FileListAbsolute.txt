@@ -1,0 +1,8 @@
+D:\Programy\GrayScale\GrayScale\ImageTransformationApplication\ImageProcessingViewModel\bin\Debug\ImageProcessingViewModel.dll
+D:\Programy\GrayScale\GrayScale\ImageTransformationApplication\ImageProcessingViewModel\bin\Debug\ImageProcessingViewModel.pdb
+D:\Programy\GrayScale\GrayScale\ImageTransformationApplication\ImageProcessingViewModel\obj\Debug\ImageProcessingViewModel.csproj.CoreCompileInputs.cache
+D:\Programy\GrayScale\GrayScale\ImageTransformationApplication\ImageProcessingViewModel\obj\Debug\ImageProcessingViewModel.dll
+D:\Programy\GrayScale\GrayScale\ImageTransformationApplication\ImageProcessingViewModel\obj\Debug\ImageProcessingViewModel.pdb
+D:\Programy\GrayScale\GrayScale\ImageTransformationApplication\ImageProcessingViewModel\obj\Debug\ImageProcessingViewModel.csprojResolveAssemblyReference.cache
+D:\Programy\GrayScale\GrayScale\ImageTransformationApplication\ImageProcessingViewModel\bin\Debug\ImageProcessingModel.dll
+D:\Programy\GrayScale\GrayScale\ImageTransformationApplication\ImageProcessingViewModel\bin\Debug\ImageProcessingModel.pdb
